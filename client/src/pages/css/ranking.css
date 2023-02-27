@@ -1,0 +1,200 @@
+* {
+    text-align:center;
+}
+
+.container {
+    text-align: center;
+    padding: 5%;
+    display: inline-block;
+    border: solid;
+    border-radius: 30px;
+}
+
+
+.header {
+    position: relative;
+}
+
+.App {
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.twilightLogo {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 50px 20px -10px 20px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.link-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:60px;
+    height:30px;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 10px 0 0 0;
+}
+
+.login-button {
+    position:absolute;
+    top:0;
+    left:0;
+    width:60px;
+    height:30px;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 10px 0 0 0;
+}
+
+
+.link-to-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height:30px;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 10px 0 0 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+  
+.cell {
+    width: 70%;
+    height: 100px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+.inner {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow:  inset -7px -7px 8px #eeeff3, inset 7px 7px 8px #f8f9fd;
+    align-self: center;
+    padding: 30px;
+    margin: 0 auto;
+    /* 세로 정렬 */
+    justify-content: center; 
+    /* 가로 정렬 */
+    align-items: center;
+    background-color: #5de168;
+}
+
+.inner-garbage {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow:  inset -7px -7px 8px #eeeff3, inset 7px 7px 8px #f8f9fd;
+    align-self: center;
+    padding: 30px;
+    margin: 0 auto;
+    /* 세로 정렬 */
+    justify-content: center; 
+    /* 가로 정렬 */
+    align-items: center;
+    background-color: #e3675a;
+}
+
+.delete-song {
+    position: absolute;
+    top:20px;
+    right:20px;
+    display: inline-block;
+    background-color: #5de168;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-garbage {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e3675a;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.recover {
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight:bold; 
+}
+
+.garbage-letter {
+    background-color: #e3675a;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.song-letter {
+    background-color: #5de168;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+
+
+.shadow {
+    box-shadow: 5px 5px 10px #e4e4e4, -5px -5px 10px #ffffff;
+}
+
+
+.search-button {
+    display: inline-block;
+}
+
+
+.adding-button {
+    width: 180px;
+    height: 70px;
+    font-size: 1.2em;
+    color:#e4e4e4;
+    border-radius: 20px;
+    background-color: rgb(40, 27, 123);
+}
+
+.addSong {
+    text-align:center;
+}
+
+.addSongModal {
+    position: absolute;
+    top: 0; 
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    border: solid;
+}
+
