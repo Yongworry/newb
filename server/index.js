@@ -18,7 +18,7 @@ app.use('/login', loginRouter);
 
 
 const OMongooseOption = { useNewUrlParser: true, useUnifiedTopology: true };
-mongoose.connect("mongodb://db:27017", OMongooseOption).then(
+mongoose.connect("mongodb://root:tnfqkrtm@db:27017", OMongooseOption).then(
   () => { console.log("mongoose connection complete") },
   (err) => { console.log(`mongoose connection error: ${err}`) }
 );
