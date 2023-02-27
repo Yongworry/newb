@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RankingPage from "./pages/ranking";
 import GarbagePage from "./pages/garbage";
 import LoginPage from './pages/login';
-import './App.css';
 
 const App = () => {
   return (
