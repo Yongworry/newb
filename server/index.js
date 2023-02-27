@@ -18,11 +18,11 @@ app.use('/login', loginRouter);
 
 
 const OMongooseOption = { useNewUrlParser: true, useUnifiedTopology: true };
-mongoose.connect("mongodb://localhost:27017", OMongooseOption).then(
+mongoose.connect("mongodb://db:27017", OMongooseOption).then(
   () => { console.log("mongoose connection complete") },
   (err) => { console.log(`mongoose connection error: ${err}`) }
 );
 
-app.listen(8080, () => {
-  console.log('listening on 8080')
+app.listen(8000, () => {
+  console.log('listening on 8000')
 }); 
